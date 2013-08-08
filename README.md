@@ -11,3 +11,5 @@ Simple example usage:
     $gamp->sendEvent('My Event Category', 'My Event Action', 'My Event Label');
 
 For more info, see Google's [development guide](https://developers.google.com/analytics/devguides/collection/protocol/v1/devguide) and [parameter reference](https://developers.google.com/analytics/devguides/collection/protocol/v1/parameters) for the protocol.
+
+Note: I wrote this for a [Drupal](https://drupal.org) website for which we were implementing GUA tracking, but plan to isolate the (minimal) Drupal-specific code and add a Drupal-specific implementation that extends a generic GAMP base.
