@@ -7,7 +7,7 @@ This is very useful for scenarios where the data you want to submit does not nat
 
 Simple example usage:
 
-    $gamp = new gamp();
+    $gamp = new GAMP();
     $gamp->sendEvent('My Event Category', 'My Event Action', 'My Event Label');
 
 For more info, see Google's [development guide](https://developers.google.com/analytics/devguides/collection/protocol/v1/devguide) and [parameter reference](https://developers.google.com/analytics/devguides/collection/protocol/v1/parameters) for the protocol.
